@@ -1,28 +1,4 @@
-// const con =require('../config/connection');
 
-// exports.put=(req,res)=>{
-//     var sql=(`update Customers set address ="baalbeck" where address ="Valley 345" `);
-    
-//     con.query(sql,function(err,result){
-        
-//         if (err) {
-//             // throw err;
-//             console.log("Table failed");
-//             return res.status(400).json({
-//                 success: false,
-//                 err
-//             })
-//         } else {
-//             console.log("Table updated");
-//             return res.status(200).json({
-//                 success:true,
-//                 result
-                
-//             })
-           
-//         }
-//     })
-// }
 
 const con = require('../config/connection');
 
